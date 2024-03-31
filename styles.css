@@ -1,0 +1,153 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author: Jacob Bowman  
+   Date:   3/27/2024  
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.7em;
+    font-family: Times New Roman;
+    color: white;
+	background-color: white;
+}
+
+#container {
+    width: 930px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+header {
+    width: 925px;	/* reduced by 20px to accommodate shadow */
+    margin-bottom: 0px;
+    margin-top: 100px;
+    text-align: center;
+    border: 1px solid #888888;
+    border-radius: 25px;
+    background-color: rgba(232,78,54,255);
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 5px;
+    color: rgba(232,78,54,255);
+    text-decoration: none;
+    display:block;
+    background-color: white;
+}
+
+nav ul li a:hover {
+    background: gray;
+    border-radius: 10px;
+    color: black;
+}
+
+#main {
+    width: 446px;
+    padding: 10px;
+    float: left;
+    color: black;
+    border-left: 2px solid;
+    border-right: 2px solid;    
+    background-image: url(Website pic 2.jpg); 
+}
+
+#main p {
+    text-indent: 1.5em;
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: Times New Roman;
+}
+
+aside {
+    width: 200px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: right;
+}
+
+aside p {
+    font-style: italic;
+    font-size: 0.9em;
+    color: black;
+}
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 0.5em;
+    color: rgba(232,78,54,255);
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    color: rgba(232,78,54,255);
+}
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(232,78,54,255);
+    clear: both;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+}/* navigation for footer */
+footer a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:visited {
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
